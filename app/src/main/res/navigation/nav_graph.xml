@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="miguelangellopezblanca.psp.practicaeloquent.View.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_insertCompetidorFragment"
+            app:destination="@id/insertCompetidorFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_insertJudoguiFragment"
+            app:destination="@id/insertJudoguiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="miguelangellopezblanca.psp.practicaeloquent.RecyclerView.RecyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" >
+        <action
+            android:id="@+id/action_recyclerFragment_to_editCompetidoresFragment2"
+            app:destination="@id/editCompetidoresFragment2" />
+        <action
+            android:id="@+id/action_recyclerFragment_to_editJudoguiFragment2"
+            app:destination="@id/editJudoguiFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertCompetidorFragment"
+        android:name="miguelangellopezblanca.psp.practicaeloquent.View.InsertCompetidorFragment"
+        android:label="fragment_insert_competidor"
+        tools:layout="@layout/fragment_insert_competidor" />
+    <fragment
+        android:id="@+id/insertJudoguiFragment"
+        android:name="miguelangellopezblanca.psp.practicaeloquent.View.InsertJudoguiFragment"
+        android:label="fragment_insert_judogui"
+        tools:layout="@layout/fragment_insert_judogui" />
+    <fragment
+        android:id="@+id/editCompetidoresFragment2"
+        android:name="miguelangellopezblanca.psp.practicaeloquent.View.EditCompetidoresFragment"
+        android:label="fragment_edit_competidores"
+        tools:layout="@layout/fragment_edit_competidores" />
+    <fragment
+        android:id="@+id/editJudoguiFragment2"
+        android:name="miguelangellopezblanca.psp.practicaeloquent.View.editJudoguiFragment"
+        android:label="fragment_edit_judogui"
+        tools:layout="@layout/fragment_edit_judogui" />
+</navigation>
