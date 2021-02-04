@@ -1,4 +1,4 @@
-package miguelangellopezblanca.psp.practicaeloquent.Adapter;
+package miguelangellopezblanca.psp.practicaeloquent.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import miguelangellopezblanca.psp.practicaeloquent.R;

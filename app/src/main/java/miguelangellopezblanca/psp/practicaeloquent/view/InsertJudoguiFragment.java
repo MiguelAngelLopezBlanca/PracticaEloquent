@@ -1,12 +1,10 @@
-package miguelangellopezblanca.psp.practicaeloquent.View;
+package miguelangellopezblanca.psp.practicaeloquent.view;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
@@ -14,20 +12,17 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import miguelangellopezblanca.psp.practicaeloquent.Adapter.AdapterIDCompetidor;
+import miguelangellopezblanca.psp.practicaeloquent.adapter.AdapterIDCompetidor;
 import miguelangellopezblanca.psp.practicaeloquent.R;
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Pojo.Competidor;
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Pojo.Judogui;

@@ -8,7 +8,7 @@ import androidx.lifecycle.MutableLiveData;
 
 import java.util.List;
 
-import miguelangellopezblanca.psp.practicaeloquent.Repositorio.Repository;
+import miguelangellopezblanca.psp.practicaeloquent.repositorio.Repository;
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Pojo.Competidor;
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Pojo.Judogui;
 

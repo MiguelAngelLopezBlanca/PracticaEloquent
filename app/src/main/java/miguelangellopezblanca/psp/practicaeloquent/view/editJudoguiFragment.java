@@ -1,4 +1,4 @@
-package miguelangellopezblanca.psp.practicaeloquent.View;
+package miguelangellopezblanca.psp.practicaeloquent.view;
 
 import android.os.Bundle;
 

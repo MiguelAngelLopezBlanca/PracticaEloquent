@@ -1,4 +1,4 @@
-package miguelangellopezblanca.psp.practicaeloquent.Adapter;
+package miguelangellopezblanca.psp.practicaeloquent.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -17,7 +17,6 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import miguelangellopezblanca.psp.practicaeloquent.R;

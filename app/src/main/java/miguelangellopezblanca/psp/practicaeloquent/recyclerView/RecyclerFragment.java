@@ -1,4 +1,4 @@
-package miguelangellopezblanca.psp.practicaeloquent.RecyclerView;
+package miguelangellopezblanca.psp.practicaeloquent.recyclerView;
 
 import android.os.Bundle;
 
@@ -12,7 +12,6 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,8 +19,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import miguelangellopezblanca.psp.practicaeloquent.Adapter.AdapterCompetidor;
-import miguelangellopezblanca.psp.practicaeloquent.Adapter.AdapterJudogui;
+import miguelangellopezblanca.psp.practicaeloquent.adapter.AdapterCompetidor;
+import miguelangellopezblanca.psp.practicaeloquent.adapter.AdapterJudogui;
 import miguelangellopezblanca.psp.practicaeloquent.R;
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Pojo.Competidor;
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Pojo.Judogui;

@@ -1,4 +1,4 @@
-package miguelangellopezblanca.psp.practicaeloquent.Repositorio;
+package miguelangellopezblanca.psp.practicaeloquent.repositorio;
 
 import android.content.Context;
 import android.util.Log;
@@ -6,8 +6,6 @@ import android.widget.Toast;
 
 import androidx.lifecycle.MutableLiveData;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import miguelangellopezblanca.psp.practicaeloquent.laravel.Clientes.CompetidorCliente;
